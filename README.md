@@ -16,8 +16,11 @@ Put `ccb.sh` in a folder where it will be safely accessible in the future, I usu
 making the final path ``/opt/clearclipboard/ccb.sh``.
 
 Append a line in your ``.bashrc`` to allow easily launching the script at any time; (alter the below depending on where you placed the script) 
-``nano /home/$(whoami)/.bashrc``
-``alias ccb="bash /opt/clearclipboard/ccb.sh"``
+
+```nano /home/$(whoami)/.bashrc```
+
+```alias ccb="bash /opt/clearclipboard/ccb.sh"```
+
 
 After that, close and re-open all of your Terminal emulators to enable the command to work inside of them.
 
