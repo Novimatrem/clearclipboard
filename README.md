@@ -15,6 +15,8 @@ Put `ccb.sh` in a folder where it will be safely accessible in the future, I usu
 ``/opt/clearclipboard``
 making the final path ``/opt/clearclipboard/ccb.sh``.
 
+**(If you've not already, you will need to take ownership of the ``/opt/`` folder before you can make edits there. To do so, use ``sudo chown $USER /opt/``, and ``sudo chown $USER /opt/*`` commands.)**
+
 Append a line in your ``.bashrc`` to allow easily launching the script at any time; (alter the below depending on where you placed the script) 
 
 ```nano /home/$(whoami)/.bashrc```
