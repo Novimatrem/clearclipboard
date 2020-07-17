@@ -24,7 +24,7 @@ Append a line in your ``.bashrc`` to allow easily launching the script at any ti
 
 After that, close and re-open all of your Terminal emulators to enable the command to work inside of them.
 
-(you may wish to bind this script to a key using xdotool, also.)
+(you may wish to bind this script to a key using xbindkeys, also.)
 
 # Usage
 You can clear your clipboards at any time by opening a Terminal and typing the ``ccb`` command, now.
